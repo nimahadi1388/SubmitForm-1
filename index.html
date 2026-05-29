@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Localstorage</title>
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="text-white">
+    <!-- TUTORIAL -->
+    <!-- <input id="inp" type="text">
+    <button onclick="saveN()">button</button>
+    <h1 id="storage"></h1> -->
+    <!-- EXERSICE -->
+    <h3 class="text-center p-2" id="alert"></h4>
+    <form class="formAdd mx-auto my-0">
+      <div class="box-form">
+        <label>product name:</label>
+        <input
+          id="productName"
+          type="text"
+          placeholder="enter your product name..."
+        />
+      </div>
+      <div class="box-form">
+        <label>price:</label>
+        <input
+          id="priceProduct"
+          type="number"
+          placeholder="enter your price product..."
+        />
+      </div>
+      <div class="box-form">
+        <label>inventory count:</label>
+        <input
+          id="inventoryCount"
+          type="text"
+          placeholder="enter your inventory count..."
+        />
+      </div>
+    </form>
+    <button id="btnAdd" class="btn btn-primary rounded-5 text-white mx-auto mt-4">Add</button>
+    <section id="containerProduct" class="d-flex justify-content-between flex-wrap"></section>
+    <script src="./bootstrap.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
